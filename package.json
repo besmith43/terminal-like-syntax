@@ -1,7 +1,7 @@
 {
   "name": "terminal-like-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "fork of sgtpepper's syntax to emulate the look and feel of the terminal",
   "keywords": [
     "syntax",
