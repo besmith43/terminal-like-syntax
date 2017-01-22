@@ -2,12 +2,13 @@
   "name": "terminal-like-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "fork of sgtpepper's syntax to emulate the look and feel of the terminal",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "terminal"
   ],
-  "repository": "https://github.com/atom/terminal-like-syntax",
+  "repository": "https://github.com/besmith43/terminal-like-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
