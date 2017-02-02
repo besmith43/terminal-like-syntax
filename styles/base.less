@@ -56,7 +56,7 @@ atom-text-editor .search-results .syntax--marker .region {
   border: 1px solid @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .suntax--marker.current-result .region {
+atom-text-editor .search-results .syntax--marker.current-result .region {
   border: 1px solid @syntax-result-marker-color-selected;
 }
 
@@ -64,11 +64,11 @@ atom-text-editor .search-results .suntax--marker.current-result .region {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-grey;
+  color: @semi-dark-grey;
 }
 
 .syntax--keyword {
-  color: @purple;
+  color: @light-red;
 
   &.syntax--control {
     color: @purple;
@@ -88,18 +88,18 @@ atom-text-editor .search-results .suntax--marker.current-result .region {
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @light-red;
 }
 
 .syntax--constant {
   color: @orange;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @light-purple;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @light-purple;
   }
 
   &.syntax--other.syntax--color {
@@ -129,7 +129,7 @@ atom-text-editor .search-results .suntax--marker.current-result .region {
 }
 
 .syntax--string {
-  color: @green;
+  color: @light-gold;
 
 
   &.syntax--regexp {
@@ -207,7 +207,7 @@ atom-text-editor .search-results .suntax--marker.current-result .region {
     color: @green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @light-grey;
   }
 
   &.syntax--name.syntax--section {
